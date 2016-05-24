@@ -56,7 +56,11 @@
 
 {!! Form::close() !!}
 
-@include('includes.form_errors')
 
+<div class="row">
+
+	@include('includes.form_errors')
+
+</div>
 
 @endsection
